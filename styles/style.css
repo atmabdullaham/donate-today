@@ -114,7 +114,7 @@ color: rgb(18, 18, 18);
   align-items: center;
   border-radius: 5px;
   background: rgb(255, 89, 89);
-  border: none;
+  border: none  ;
 }
 
 .section-2{
@@ -178,4 +178,13 @@ input::placeholder{
 }
 input{
   margin-bottom: 30px;
+}
+.plan-box{
+    width: 360px;
+    height: 352px;
+    padding: 52px 22px;
+}
+.bg1{
+  border-radius: 5px;
+    background: rgba(79, 157, 166, 0.1);
 }
