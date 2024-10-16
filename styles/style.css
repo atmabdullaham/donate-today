@@ -1,0 +1,22 @@
+*{
+ padding: 0px;
+ margin: 0px;
+}
+body{
+ width: 1440px;
+ margin: 0 auto;
+}
+
+/* Common Design */
+.header1{
+color: rgb(18, 18, 18);
+ font-family: "Inter";
+ font-size: 65px;
+ font-weight: 700;
+ line-height: 79px;
+ letter-spacing: 0px;
+ text-align: left;
+}
+.header2{
+
+}
