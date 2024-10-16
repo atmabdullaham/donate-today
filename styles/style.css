@@ -110,5 +110,35 @@ color: rgb(18, 18, 18);
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-   background: rgb(255, 89, 89);
+  background: rgb(255, 89, 89);
 }
+
+.section-2{
+ width: 1126px;
+ border: 2px dotted blue;
+ margin: 0px auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+.text-box2{
+  width: 691px;
+  height: 130px;
+  border: 2px solid springgreen;
+}
+
+.taka-box{
+ display: flex;
+ gap: 2px;
+}
+.taka{
+  width: 135px;
+  height: 123px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  ghostwhite;
+}
+%@
