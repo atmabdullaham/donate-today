@@ -5,8 +5,20 @@
 body{
  width: 1440px;
  margin: 0 auto;
+ border: 2px solid slateblue;
+}
+.text-img-box{
+ display: flex;
+ justify-content: center;
 }
 
+.text-box{
+ border: 2px solid red;
+}
+.img-box{
+  width: 490px;
+  height: 603px;
+}
 /* Common Design */
 .header1{
 color: rgb(18, 18, 18);
@@ -16,7 +28,61 @@ color: rgb(18, 18, 18);
  line-height: 79px;
  letter-spacing: 0px;
  text-align: left;
+ width: 524px;
+ height: 237px;
+ border: 2px solid green;
 }
 .header2{
+color: rgb(18, 18, 18);
+ font-family: "Inter";
+ font-size: 45px;
+ font-weight: 700;
+ line-height: 54px;
+ letter-spacing: 0px;
+ text-align: center;
+ border: 2px solid yellow;
+}
+.header3{
+ color: rgb(18, 18, 18);
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  
+}
 
+.para1{
+ color: rgb(112, 112, 112);
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 471px;
+  height: 84px;
+  border: 2px solid purple;
+}
+.para2{
+ color: rgb(112, 112, 112);
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: 2px solid red;
+}
+
+/* Margin */
+.mb20{
+ margin-bottom: 20px;
+}
+.mb30{
+ margin-bottom: 30px;
+}
+.mb130{
+ margin-bottom: 130px;
 }
