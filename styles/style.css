@@ -80,6 +80,15 @@ color: rgb(18, 18, 18);
   text-align: center;
   border: 2px solid red;
 }
+.para3{
+  color: rgb(112, 112, 112);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
 /* Margin */
 .mb20{
@@ -179,12 +188,27 @@ input::placeholder{
 input{
   margin-bottom: 30px;
 }
+.plan-box-container{
+  display: flex;
+ gap: 15px;
+}
 .plan-box{
     width: 360px;
     height: 352px;
-    padding: 52px 22px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 .bg1{
-  border-radius: 5px;
-    background: rgba(79, 157, 166, 0.1);
+  background: rgba(79, 157, 166, 0.1);
+}
+.bg2{
+  background: rgba(255, 89, 89, 0.1);
+}
+.bg3{
+  background: rgb(245, 246, 223);;
 }
